@@ -1,0 +1,36 @@
+[project]
+name = "RhymeCraft"
+version = "0.0.0"
+license = "GPL-3.0"
+build = "build.rs"
+
+[dependencies]
+log = "=0.3.1"
+fern = "=0.3.5"
+time = "=0.1.26"
+rand = "=0.3.12"
+
+[[bin]]
+name = "rhyme_craft"
+path = "src/main.rs"
+
+[dependencies.allegro]
+version = "=0.0.26"
+
+[dependencies.allegro_dialog]
+version = "=0.0.26"
+
+[dependencies.allegro_audio]
+version = "=0.0.26"
+
+[dependencies.allegro_primitives]
+version = "=0.0.26"
+
+[dependencies.allegro_font]
+version = "=0.0.26"
+
+[dependencies.allegro_image]
+version = "=0.0.26"
+
+[dependencies.slr_config]
+version = "=0.0.12"
